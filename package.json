@@ -1,6 +1,6 @@
 {
   "name": "@mapbox/yolp-mapbox-static-maps",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "keywords": [],
   "main": "dist/yolp-mapbox-static-maps.umd.js",
@@ -123,5 +123,8 @@
     "@turf/point-to-line-distance": "^6.0.0",
     "@turf/turf": "^5.1.6",
     "url-search-params-polyfill": "^8.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
